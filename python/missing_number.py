@@ -11,4 +11,6 @@
 
 # O(n): iterates through sum twice, where sum is O(n) and range/len are O(1)
 def missing_number(nums: list[int]) -> int:
-    return sum(range(len(nums)+1)) - sum(nums)
+    return sum(range(len(nums) + 1)) - sum(nums)
+
+# really its just expected sum of list - actual sum of list
