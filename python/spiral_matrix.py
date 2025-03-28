@@ -2,22 +2,22 @@
 # right down left up
 def spiralOrder(matrix: list[list[int]]) -> list[int]:
     result = []
-    while matrix:  # i don't think this is a good while loop
+    while matrix:
         if not matrix:  # check
             return result
-        top_row = matrix.pop(0)  # moving right
+        top_row = matrix.pop(0)  # right
         for val in top_row:
             result.append(val)
-        for row in matrix:  # moving down
+        for row in matrix:  # down
             if not row:  # check
                 return result
             result.append(row.pop())
         if not matrix:  # check
             return result
-        bot_row = matrix.pop()  # moving left
+        bot_row = matrix.pop()  # left
         for val in bot_row[::-1]:
             result.append(val)
-        for row in matrix[::-1]:  # moving up
+        for row in matrix[::-1]:  # up
             if not row:  # check
                 return result
             result.append(row.pop(0))
