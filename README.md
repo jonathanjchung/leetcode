@@ -13,3 +13,4 @@ First function is mine, second function is online solution
 | 0054 | Spiral Matrix                                        | [Link](./python/spiral_matrix.py)                   | Medium     |
 | 0200 | Number of Islands                                    | [Link](./python/number_of_islands.py)               | Medium     |
 | 0121 | Best Time to Buy and Sell Stock                      | [Link](./python/best_time_to_buy_and_sell_stock.py) | Easy       |
+| 0977 | Squares of a Sorted Array                            | [Link](./python/squares_of_a_sorted_array.py)       | Easy       |

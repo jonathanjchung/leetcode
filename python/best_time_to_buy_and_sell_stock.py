@@ -12,7 +12,7 @@ def maxProfit(prices: list[int]) -> int:
 
 
 # attempt two
-# O(N)
+# O(n)
 def attempt_two(prices: list[int]) -> int:
     l, r = 0, 1
     max_profit = 0
